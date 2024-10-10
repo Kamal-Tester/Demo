@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="4" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-10-10T17:10:55 IST" name="Default suite" finished-at="2024-10-10T17:20:55 IST" duration-ms="599364">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.OdyRunner@1339e7aa]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2024-10-10T17:10:55 IST" name="Default test" finished-at="2024-10-10T17:20:55 IST" duration-ms="599364">
+      <class name="TestRunner.OdyRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:TestRunner.OdyRunner@1339e7aa]" started-at="2024-10-10T17:10:55 IST" name="setUpClass" finished-at="2024-10-10T17:10:57 IST" duration-ms="1102" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@24c84e65]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.OdyRunner@1339e7aa]" started-at="2024-10-10T17:10:57 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-10-10T17:12:49 IST" duration-ms="112161" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Check the create account scenario."]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Checking the functionality of OrangeHRM website"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.OdyRunner@1339e7aa]" started-at="2024-10-10T17:12:49 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-10-10T17:16:14 IST" duration-ms="205379" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Check login is successful with valid credentials."]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Checking the functionality of OrangeHRM website"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.OdyRunner@1339e7aa]" started-at="2024-10-10T17:16:14 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-10-10T17:16:50 IST" duration-ms="35982" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Check all the elements in Homepage."]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Checking the functionality of OrangeHRM website"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Arts & Crafts] but found [book]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Arts & Crafts] but found [book]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at Pages.Homepage_Headerrr.menu_item(Homepage_Headerrr.java:72)
+at StepDefination.Stepdefination.user_should_verify_all_elements_in_homepage(Stepdefination.java:148)
+at ✽.User should verify all elements in homepage.(file:///C:/Users/H3TJL13.cgi/Documents/workspace-spring-tool-suite-4-4.16.0.RELEASE/Odyssey_Project/src/test/resources/Feature/Odyssey.feature:20)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.OdyRunner@1339e7aa]" started-at="2024-10-10T17:16:50 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-10-10T17:18:30 IST" duration-ms="99819" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Check the wishlist and payment scenario"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Checking the functionality of OrangeHRM website"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.OdyRunner@1339e7aa]" started-at="2024-10-10T17:18:30 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-10-10T17:20:55 IST" duration-ms="144644" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Check the cart scenario"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Checking the functionality of OrangeHRM website"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:TestRunner.OdyRunner@1339e7aa]" started-at="2024-10-10T17:20:55 IST" name="tearDownClass" finished-at="2024-10-10T17:20:55 IST" duration-ms="69" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- TestRunner.OdyRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
